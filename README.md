@@ -11,7 +11,7 @@ Dica para lidar com a resposta do axios:
 - faça uma requisição na pokeapi de um pokemon qualquer (por exemplo o ditto) e copie todo o objeto json retornado e salve ele como um mock em um arquivo separado na pasta tests (por exemplo pokemonMock.js)
 - importe-o quando precisar utilizá-lo nos arquivos de teste
 
-Isso vai agilizar muito seus testes quando precisar lidar com códigos complexos como o desse exercício (e na vida real).
+Isso vai agilizar muito seus testes quando precisar lidar com mocks complexos como o desse exercício (e na vida real).
 
 ### Exercício 2
 
