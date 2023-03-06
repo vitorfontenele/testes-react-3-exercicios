@@ -2,7 +2,7 @@
 
 ## Enunciado
 
-Volte para o exercício anterior que possui o app pokedex. Ele se encontra nesse link: https://github.com/labenuexercicios/testes-react-2-exercicios
+É o mesmo app de pokedex do exercício anterior. A única diferença é que houve um refatoramento do Pokecard para facilitar a criação dos testes.
 
 ### Exercício 1
 
