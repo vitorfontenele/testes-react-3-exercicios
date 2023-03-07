@@ -40,6 +40,8 @@ describe("Pokecard", () => {
             openModal={openModalMock}
         />)
 
+        const loading = screen.getByText(/loading\.\.\./i)
+
         await waitFor(() => {
             const title = screen.getByRole('heading', { name: /ivysaur/i });
             const img = screen.getByRole('img', { name: /ivysaur/i });
@@ -50,6 +52,7 @@ describe("Pokecard", () => {
             expect(img).toBeInTheDocument();
             expect(typeA).toBeInTheDocument();
             expect(typeB).toBeInTheDocument();
+            expect(loading).not.toBeInTheDocument();
         });
 
         screen.logTestingPlaygroundURL()
